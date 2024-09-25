@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.admin_settings_controller">
+   <children>
+      <Button fx:id="usernamebutton" layoutX="340.0" layoutY="68.0" mnemonicParsing="false" onAction="#usernamebuttonpressed" prefHeight="38.0" prefWidth="171.0" text="Change" />
+      <Button fx:id="passwordbutton" layoutX="340.0" layoutY="182.0" mnemonicParsing="false" onAction="#passwordbuttonpressed" prefHeight="38.0" prefWidth="171.0" text="Change" />
+      <Button fx:id="backbutton" layoutX="215.0" layoutY="319.0" mnemonicParsing="false" onAction="#backbuttonpressed" prefHeight="38.0" prefWidth="171.0" text="Go back" />
+      <Text layoutX="70.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change profile's username" wrappingWidth="171.0" />
+      <Text layoutX="70.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change profile's password" wrappingWidth="171.0" />
+   </children>
+</AnchorPane>

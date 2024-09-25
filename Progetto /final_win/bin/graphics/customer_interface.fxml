@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.customer_controller">
+   <children>
+      <HBox prefHeight="500.0" prefWidth="120.0">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Login_sx.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="480.0" prefHeight="500.0" prefWidth="120.0">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Login_sx.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="120.0" prefHeight="500.0" prefWidth="360.0">
+         <children>
+            <Pane prefHeight="500.0" prefWidth="377.0">
+               <children>
+                  <VBox prefHeight="50.0" prefWidth="360.0" />
+                  <VBox layoutY="50.0" prefHeight="50.0" prefWidth="360.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Text layoutX="68.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to winery!" wrappingWidth="224.0">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="24.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutY="100.0" prefHeight="323.0" prefWidth="360.0">
+                     <children>
+                        <Pane prefHeight="397.0" prefWidth="360.0">
+                           <children>
+                              <Text layoutX="91.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search wines" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="47.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buy wines" wrappingWidth="88.30244445800781">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="47.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Watch proposal status" wrappingWidth="131.0">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Button fx:id="exitbutton" layoutX="120.0" layoutY="244.0" mnemonicParsing="false" onAction="#quitapplication" prefHeight="26.0" prefWidth="120.0" text="Exit">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="buywinebutton" layoutX="203.0" layoutY="146.0" mnemonicParsing="false" onAction="#buywine" prefHeight="31.0" prefWidth="125.0" text="Buy">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="watchproposalbutton" layoutX="203.0" layoutY="186.0" mnemonicParsing="false" onAction="#watchproposal" prefHeight="31.0" prefWidth="125.0" text="Watch">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Text layoutX="43.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search wines by name" wrappingWidth="154.37074279785156">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="43.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search wines by year" wrappingWidth="154.37074279785156">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="43.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search wines by name &amp; year" wrappingWidth="154.37074279785156">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Button fx:id="searchgeneralbutton" layoutX="203.0" layoutY="106.0" mnemonicParsing="false" onAction="#winegeneralsearch" prefHeight="31.0" prefWidth="125.0" text="Search">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="searchyearbutton" layoutX="203.0" layoutY="66.0" mnemonicParsing="false" onAction="#winesearchyear" prefHeight="31.0" prefWidth="125.0" text="Search">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="searchnamebutton" layoutX="203.0" layoutY="28.0" mnemonicParsing="false" onAction="#winesearchname" prefHeight="31.0" prefWidth="125.0" text="Search">
+                                 <font>
+                                    <Font name="AppleMyungjo Regular" size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox layoutY="423.0" prefHeight="77.0" prefWidth="360.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.confirm_proposal_controller">
+   <children>
+      <Text layoutX="102.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The seller has fulfilled your request. Do you want to proceed with the purchase?" textAlignment="CENTER" wrappingWidth="248.21630859375">
+         <font>
+            <Font name="AppleMyungjo Regular" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="proceedbutton" layoutX="323.0" layoutY="165.0" mnemonicParsing="false" onAction="#proceedbuttonpressed" text="Proceed">
+         <font>
+            <Font name="AppleMyungjo Regular" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelbutton" layoutX="75.0" layoutY="166.0" mnemonicParsing="false" onAction="#cancelbuttonpressed" text="Reject">
+         <font>
+            <Font name="AppleMyungjo Regular" size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="122.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATTENTION!!!" textAlignment="CENTER" wrappingWidth="208.21630859375">
+         <font>
+            <Font name="AppleMyungjo Regular" size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

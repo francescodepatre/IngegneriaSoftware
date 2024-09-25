@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/francescodepatre/Scrivania/Progetto - Ing del Sw/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3112399828.index
+2147868783.index

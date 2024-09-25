@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.add_offer_controller2">
+   <children>
+      <TextField fx:id="winefield" layoutX="215.0" layoutY="160.0" promptText="idwine" />
+      <TextField fx:id="discountfield" layoutX="215.0" layoutY="350.0" promptText="\% of discount" />
+      <DatePicker fx:id="startdate" layoutX="215.0" layoutY="224.0" prefHeight="26.0" prefWidth="160.0" promptText="start offer" />
+      <DatePicker fx:id="enddate" layoutX="215.0" layoutY="289.0" prefHeight="26.0" prefWidth="160.0" promptText="end offer" />
+      <Text layoutX="70.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Wine" wrappingWidth="120.21630859375" />
+      <Text layoutX="70.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starting date offer" wrappingWidth="120.21630859375" />
+      <Text layoutX="70.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ending date offer" wrappingWidth="120.21630859375" />
+      <Text layoutX="70.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\% of discount" wrappingWidth="120.21630859375" />
+      <Text layoutX="78.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Offer" textAlignment="CENTER" wrappingWidth="274.21630859375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="addbutton" layoutX="268.0" layoutY="451.0" mnemonicParsing="false" onAction="#addbuttonpressed" text="Add" />
+      <Button fx:id="cancelbutton" layoutX="103.0" layoutY="451.0" mnemonicParsing="false" onAction="#cancelbuttonpressed" text="Cancel" />
+   </children>
+</AnchorPane>

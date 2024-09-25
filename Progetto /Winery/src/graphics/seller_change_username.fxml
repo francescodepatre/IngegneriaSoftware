@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interfaces.change_seller_username_controller">
+   <children>
+      <TextField fx:id="usernamefield" layoutX="300.0" layoutY="131.0" promptText="new username" />
+      <Button fx:id="cancelbutton" layoutX="132.0" layoutY="279.0" mnemonicParsing="false" onAction="#cancelbuttonpressed" text="Cancel" />
+      <Button fx:id="changebutton" layoutX="349.0" layoutY="279.0" mnemonicParsing="false" onAction="#changebuttonpressed" text="Change" />
+      <Text layoutX="108.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New username" wrappingWidth="159.5" />
+   </children>
+</AnchorPane>
